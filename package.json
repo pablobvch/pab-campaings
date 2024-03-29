@@ -1,0 +1,18 @@
+{
+  "name": "gofoundme",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "build": "npm test && pkg pab-campaings.js -t node18-macos-x64",
+    "build:all": "pkg -t node18-macos-x64,node18-linux-x64,node18-win-x64 pab-campaings.js -o pab-campaings",
+    "create:file": "node createFile"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
